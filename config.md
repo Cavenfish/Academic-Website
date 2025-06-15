@@ -21,13 +21,12 @@ ignore = [
 "package.json"
 ]
 
-prepath = "Academic-Website" <!-- For live-demo links to work -->
-
 # RSS
 
 generate_rss = true
 website_title = "Your Title"
 website_descr = "Your Description"
 website_url = "https://cavenfish.github.io/Academic-Website"
+prepath = "Academic-Website"
 
 +++
