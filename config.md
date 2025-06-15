@@ -26,6 +26,6 @@ ignore = [
 generate_rss = true
 website_title = "Your Title"
 website_descr = "Your Description"
-website_url = "https://your-path.com/"
+website_url = "https://cavenfish.github.io/Academic-Website"
 
 +++

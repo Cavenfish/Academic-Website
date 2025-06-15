@@ -1,0 +1,39 @@
+name: CI
+on:
+  push:
+    branches:
+      - live-demo
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Julia
+        uses: julia-actions/setup-julia@latest
+      - name: Build Package
+        uses: julia-actions/julia-buildpkg@v1
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Compile Sass
+        run: |
+          mkdir _css
+          npm install
+          node ./utils/js/compile_sass.js
+      - name: Build Franklin Site
+        shell: julia --project=./
+        run: |
+          using Pkg
+          Pkg.instantiate()
+          using Franklin
+          optimize(minify=false, prerender=false)
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: __site
