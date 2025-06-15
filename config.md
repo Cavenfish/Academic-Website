@@ -21,6 +21,8 @@ ignore = [
 "package.json"
 ]
 
+prepath = "Academic-Website" <!-- For live-demo links to work -->
+
 # RSS
 
 generate_rss = true
