@@ -1,13 +1,5 @@
 @use "vars";
 
-@media (min-width: 940px) {
-  .franklin-content {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 body {
   overflow: hidden;
 }
@@ -95,5 +87,36 @@ body {
         display: inline-block;
       }
     }
+  }
+}
+
+@media (max-width: vars.$mobile-max-width) {
+  .cover {
+    .cover-photo {
+      width: 80%;
+      float: none;
+      margin-left: 10%;
+      align-content: center;
+    }
+
+    .cover-body {
+      text-align: center;
+
+      .title {
+        text-align: center;
+      }
+    }
+
+    .cover-links {
+      ul {
+        padding-inline-start: 0;
+      }
+    }
+  }
+}
+
+@media (max-height: 500px) {
+  body {
+    overflow-x: auto;
   }
 }

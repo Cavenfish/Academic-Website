@@ -1,4 +1,4 @@
-@use 'vars';
+@use "vars";
 
 .card {
   width: 100%;
@@ -31,6 +31,30 @@
     .title {
       color: vars.$secondary-foreground;
     }
+  }
+}
 
+@media (max-width: vars.$mobile-max-width) {
+  .card {
+    display: block;
+
+    .card-img {
+      width: 100%;
+      align-content: center;
+
+      img {
+        width: 95%;
+        margin: auto;
+      }
+    }
+    .card-info {
+      width: 100%;
+      text-align: center;
+      padding-left: 0;
+
+      h2 {
+        text-align: center;
+      }
+    }
   }
 }

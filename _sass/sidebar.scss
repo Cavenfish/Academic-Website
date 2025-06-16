@@ -1,3 +1,5 @@
+@use "vars";
+
 .academic-sidebar {
   height: 100%;
   width: 15%;
@@ -27,5 +29,11 @@
       max-width: 175px;
       clip-path: circle();
     }
+  }
+}
+
+@media (max-width: vars.$mobile-max-width) {
+  .academic-sidebar {
+    display: none;
   }
 }

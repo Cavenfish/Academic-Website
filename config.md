@@ -14,6 +14,7 @@ mintoclevel = 2
 
 ignore = [
 "_sass/",
+"utils/",
 "node_modules/",
 "Manifest.toml",
 "Project.toml",
