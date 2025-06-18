@@ -13,10 +13,11 @@ The focus for this template is websites for academics, and it was heavily inspir
 - [x] Setup a live-demo
 - [ ] Make everything prettier (subjective but still important)
 - [ ] Style the mobile version
-- [ ] Make software/code showcase
+- [x] Make software/code showcase
 - [ ] Add more cover styles
 - [ ] Add color themes (like cover style but for site colors)
 - [ ] Add CV display/download
 - [ ] Add icons to team cards
 - [ ] Make documentation (ie. how to setup a personal page)
 - [ ] Refactor sass for better organization
+- [ ] Make news feed

@@ -1,34 +1,40 @@
 [general]
 author = "Your Name Here"
-my_picture = "/assets/figs/rndimg.jpg"
+my_picture = "/assets/figs/me.png"
 my_bio = "Your short bio here."
-links = [
-    ["https://scholar.google.com", "fa fa-graduation-cap"],
-    ["https://github.com", "fa fa-brands fa-github"],
-    ["https://orcid.org", "fa fa-brands fa-orcid"],
-    ["https://www.linkedin.com", "fa fa-brands fa-linkedin"],
-    ["https://www.researchgate.net", "fa fa-brands fa-researchgate"],
-    ["https://bsky.app/", "fa fa-brands fa-bluesky"],
-    ["https://mastodon.social/explore", "fa fa-brands fa-mastodon"]
-]
+
+[links]
+scholar = [ "https://scholar.google.com", "fa fa-graduation-cap" ]
+github = [ "https://github.com", "fa fa-brands fa-github" ]
+orcid = [ "https://orcid.org", "fa fa-brands fa-orcid" ]
+linkedin = [ "https://www.linkedin.com", "fa fa-brands fa-linkedin" ]
+researchgate = [ "https://www.researchgate.net", "fa fa-brands fa-researchgate" ]
+bluesky = [ "https://bsky.app/", "fa fa-brands fa-bluesky" ]
+mastodon = [ "https://mastodon.social/explore", "fa fa-brands fa-mastodon" ]
 
 [team]
-order = ["jane", "another", "more"]
-jane.alt = "Human"
-jane.name = "A. Person"
-jane.image = "/assets/figs/profile.png"
-jane.title = "Postdoc"
-jane.bio = "A short bio here"
-jane.email = "some.email@uni.edu"
-another.alt = "Human"
-another.name = "B. Person"
-another.image = "/assets/figs/profile.png"
-another.title = "PhD Student"
-another.bio = "A short bio here"
-another.email = "some.email@uni.edu"
-more.alt = "Human"
-more.name = "C. Person"
-more.image = "/assets/figs/profile.png"
-more.title = "Undergraduate Student"
-more.bio = "A short bio here"
-more.email = "some.email@uni.edu"
+order = [ "jane", "another", "more" ]
+
+[team.jane]
+alt = "Human"
+name = "A. Person"
+title = "Postdoc"
+bio = "A short bio here"
+email = "some.email@uni.edu"
+image = "/assets/figs/jane.png"
+
+[team.another]
+alt = "Human"
+name = "B. Person"
+title = "PhD Student"
+bio = "A short bio here"
+email = "some.email@uni.edu"
+image = "/assets/figs/another.png"
+
+[team.more]
+alt = "Human"
+name = "C. Person"
+title = "Undergraduate Student"
+bio = "A short bio here"
+email = "some.email@uni.edu"
+image = "/assets/figs/more.png"

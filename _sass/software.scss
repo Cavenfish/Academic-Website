@@ -1,0 +1,51 @@
+@use "vars";
+
+.software {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 2px solid vars.$secondary-background;
+  border-radius: 20px;
+  display: block;
+
+  .title {
+    margin-left: 15px;
+    display: inline-block;
+
+    h1 {
+      color: vars.$tertiary-foreground;
+      text-decoration: none;
+      padding-bottom: 0;
+      margin-bottom: 5px;
+    }
+  }
+
+  .blurb {
+    display: block;
+    margin-left: 30px;
+
+    p {
+      padding-top: 0;
+      padding-bottom: 5px;
+      color: vars.$primary-foreground;
+      font-size: vars.$normal-font;
+    }
+  }
+
+  .links {
+    display: inline-block;
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        list-style: none;
+        display: inline;
+        margin: 15px;
+
+        a {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

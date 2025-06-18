@@ -4,12 +4,16 @@ body {
   overflow: hidden;
 }
 
+// Override some things
 .franklin-content {
+  width: 100%;
   padding: 0;
   align-content: center;
 }
 
+// Override some things
 .page-foot {
+  width: 100%;
   padding-top: 0;
   margin-top: 0;
 }
@@ -23,12 +27,11 @@ body {
     text-align: right;
     align-content: center;
     float: left;
-    margin-left: 12.5%;
+    margin-left: 10%;
 
     img {
-      width: 100%;
+      width: 75%;
       align-self: center;
-      clip-path: circle();
     }
   }
 
@@ -59,14 +62,13 @@ body {
       padding: 10px;
       display: inline;
       color: vars.$primary-foreground;
-      background: vars.$primary-background;
-      border-color: vars.$primary-foreground;
-      border-width: 1px;
+      background-color: vars.$primary-background;
+      border: none;
       align-content: center;
 
       a {
         color: vars.$primary-foreground;
-        font-size: vars.$normal-font;
+        font-size: vars.$xlarge-font;
         text-decoration: none;
       }
     }

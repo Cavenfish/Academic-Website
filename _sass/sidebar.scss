@@ -6,7 +6,7 @@
   list-style: none;
   text-align: center;
   position: fixed;
-  padding-top: 5%;
+  padding-top: 30px;
   padding-left: 5%;
 
   h3 {
@@ -27,7 +27,6 @@
   .author_avatar {
     img {
       max-width: 175px;
-      clip-path: circle();
     }
   }
 }

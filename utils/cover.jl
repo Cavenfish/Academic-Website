@@ -8,10 +8,10 @@ end
 
 function hfun_cover_links()
   io    = IOBuffer()
-  links = CONF["general"]["links"]
+  links = CONF["links"]
 
   write(io, "<ul>")
-  for link in links
+  for link in values(links)
     write(io, """
     <li>
     <a href="$(link[1])" target=_blank>
