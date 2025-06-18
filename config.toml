@@ -21,7 +21,6 @@ name = "A. Person"
 title = "Postdoc"
 bio = "A short bio here"
 email = "some.email@uni.edu"
-image = "/assets/figs/jane.png"
 
 [team.another]
 alt = "Human"
@@ -29,7 +28,6 @@ name = "B. Person"
 title = "PhD Student"
 bio = "A short bio here"
 email = "some.email@uni.edu"
-image = "/assets/figs/another.png"
 
 [team.more]
 alt = "Human"
@@ -37,4 +35,3 @@ name = "C. Person"
 title = "Undergraduate Student"
 bio = "A short bio here"
 email = "some.email@uni.edu"
-image = "/assets/figs/more.png"
