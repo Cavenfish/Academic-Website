@@ -1,0 +1,31 @@
+@use "vars";
+
+.post {
+  width: 100%;
+  height: 100%;
+
+  .title {
+    color: vars.$secondary-foreground;
+
+    h1 {
+      margin-bottom: 5px;
+
+      a {
+        text-decoration: none;
+        color: vars.$secondary-foreground;
+      }
+    }
+  }
+
+  .blurb {
+    margin-left: 15px;
+
+    p {
+      padding-top: 0;
+      padding-bottom: 5px;
+      margin-top: 5px;
+      color: vars.$primary-foreground;
+      font-size: vars.$normal-font;
+    }
+  }
+}

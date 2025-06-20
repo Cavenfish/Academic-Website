@@ -9,6 +9,7 @@ include("./utils/showcase.jl")
 include("./utils/cards.jl")
 include("./utils/nav.jl")
 include("./utils/software.jl")
+include("./utils/posts.jl")
 
 @lx function br(; n=1)
   repeat("<br>", n)  |> html

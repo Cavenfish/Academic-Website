@@ -16,8 +16,16 @@ The focus for this template is websites for academics, and it was heavily inspir
 - [x] Make software/code showcase
 - [ ] Add more cover styles
 - [ ] Add color themes (like cover style but for site colors)
-- [ ] Add CV display/download
+- [x] Add CV display/download
 - [ ] Add icons to team cards
 - [ ] Make documentation (ie. how to setup a personal page)
 - [ ] Refactor sass for better organization
 - [ ] Make news feed
+- [ ] Add blog page to live-demo
+- [ ] Add hobbies page to live-demo
+- [x] Make nav function work with dirs too
+
+
+## Credits
+
+The example CV was taken from this Overleaf [template](https://www.overleaf.com/latex/templates/a-customised-curve-cv/mvmbhkwsnmwv).
