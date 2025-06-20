@@ -21,9 +21,10 @@ The focus for this template is websites for academics, and it was heavily inspir
 - [ ] Make documentation (ie. how to setup a personal page)
 - [ ] Refactor sass for better organization
 - [ ] Make news feed
-- [ ] Add blog page to live-demo
-- [ ] Add hobbies page to live-demo
+- [x] Add blog page to live-demo
+- [x] Add hobbies page to live-demo
 - [x] Make nav function work with dirs too
+- [ ] Add optional pronouns field for names
 
 
 ## Credits
