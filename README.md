@@ -12,7 +12,7 @@ The focus for this template is websites for academics, and it was heavily inspir
 
 - [x] Setup a live-demo
 - [ ] Make everything prettier (subjective but still important)
-- [ ] Style the mobile version
+- [x] Style the mobile version
 - [x] Make software/code showcase
 - [ ] Add more cover styles
 - [ ] Add color themes (like cover style but for site colors)
@@ -25,6 +25,7 @@ The focus for this template is websites for academics, and it was heavily inspir
 - [x] Add hobbies page to live-demo
 - [x] Make nav function work with dirs too
 - [x] Add optional pronouns field for names
+- [ ] Make it possible to update the template for existing sites
 
 
 ## Credits
