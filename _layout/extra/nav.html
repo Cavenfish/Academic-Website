@@ -1,8 +1,12 @@
 <div class="masthead">
-    <nav>
-        <ul>
-        <li><a href="/">{{fill author}}</a></li>
-        {{navigation}}
-        </ul>
-    </nav>
+  <nav>
+    <div class="author-name-nav">
+      <li><a href="/">{{author_name}}</a></li>
+    </div>
+    <a class="burger-nav" onclick="myFunction()">
+      <i class="fa-2x fa fa-bars"></i>
+    </a>
+    <div class="desktop-nav">{{navigation}}</div>
+    <div id="hidden" class="mobile-nav">{{navigation}}</div>
+  </nav>
 </div>

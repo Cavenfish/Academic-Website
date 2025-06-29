@@ -11,6 +11,18 @@ include("./utils/nav.jl")
 include("./utils/software.jl")
 include("./utils/posts.jl")
 
-@lx function br(; n=1)
-  repeat("<br>", n)  |> html
+hfun_author_name() = CONF["general"]["author"]
+hfun_author_bio() = CONF["general"]["my_bio"]
+hfun_author_pronouns() = CONF["general"]["pronouns"]
+
+function hfun_pronouns_heading()
+  "<p class=\"pronouns\"> 
+    $(CONF["general"]["pronouns"])
+  </p>"
+end
+
+function hfun_short_bio()
+  "<p class=\"short-bio\"> 
+    $(CONF["general"]["my_bio"])
+  </p>"
 end

@@ -127,6 +127,20 @@ html {
   }
 }
 
+.pronouns {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+  font-size: vars.$medium-font;
+  color: vars.$tertiary-foreground;
+}
+
+.short-bio {
+  font-size: vars.$normal-font;
+  color: vars.$primary-foreground;
+}
+
 .page-foot {
   font-size: vars.$footer-font-size;
   font-family: vars.$footer-font-stack;

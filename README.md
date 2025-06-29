@@ -24,7 +24,7 @@ The focus for this template is websites for academics, and it was heavily inspir
 - [x] Add blog page to live-demo
 - [x] Add hobbies page to live-demo
 - [x] Make nav function work with dirs too
-- [ ] Add optional pronouns field for names
+- [x] Add optional pronouns field for names
 
 
 ## Credits

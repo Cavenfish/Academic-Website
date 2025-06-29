@@ -1,12 +1,14 @@
 <div class="academic-sidebar">
-    <div class="author_avatar">
-        <img src={{fill my_picture}} class="author_avatar" alt="Author Name">
-    </div>
+  <div class="author_avatar">{{author_avatar}}</div>
 
-    <h3>{{fill author}}</h3>
+  <h3>{{author_name}}</h3>
 
-    {{fill my_bio}}
-    <br><br>
+  <!-- Pronouns are a class -->
+  {{pronouns_heading}}
 
-    {{sidebar_links}}
+  <!-- Bio is just text -->
+  {{author_bio}}
+  <br /><br />
+
+  {{sidebar_links}}
 </div>

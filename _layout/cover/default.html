@@ -1,19 +1,14 @@
-
 <div class="cover">
-  <div class="cover-photo">
-    <img src={{my_picture}} alt={{author}}/>
-  </div>
+  <div class="cover-photo">{{author_img}}</div>
 
   <div class="cover-body">
-    <p class="title">{{author}}</p>
+    <p class="title">{{author_name}}</p>
 
-    <br>
+    <!-- Pronouns are a class -->
+    {{pronouns_heading}}
 
-    {{my_bio}}
-
-    <br>
-    <br>
-    <br>
+    <!-- Bio is a class -->
+    {{short_bio}}
   </div>
 
   <div class="cover-nav">

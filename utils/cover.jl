@@ -1,4 +1,10 @@
 
+function hfun_author_img()
+  gen = CONF["general"]
+
+  "<img src=\"$(gen["my_picture"])\" alt=\"$(gen["author"])\">"
+end
+
 function hfun_cover()
   style = locvar("style")
   file  = "./_layout/cover/$(style).html" 

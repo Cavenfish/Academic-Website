@@ -40,3 +40,13 @@ function hfun_sidebar_links()
 
   take!(io) |> String
 end
+
+function hfun_author_avatar()
+  gen = CONF["general"]
+
+  "<img 
+    src=\"$(gen["my_picture"])\" 
+    class=\"author_avatar\" 
+    alt=\"$(gen["author"])\" 
+  />"
+end
